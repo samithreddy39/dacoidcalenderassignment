@@ -81,7 +81,7 @@ Follow these steps to run the app on your local machine:
 ## **Link to the Deployed App**
 
 You can view the live version of the app at the following URL:
-- [Deployed App Link](https://dacoidcalenderassignment-git-master-samiths-projects-7af474ec.vercel.app)
+- [Deployed App Link](https://dacoidcalenderassignment.vercel.app/)
 
 
 
