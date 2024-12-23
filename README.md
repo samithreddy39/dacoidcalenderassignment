@@ -30,7 +30,6 @@ This dynamic event calendar application allows users to manage events for each d
 
 ### **UI Requirements**:
 
-- Clean and modern UI using **shadcn** for components.
 - Display days in a grid with clear separation between weekends and weekdays.
 - The current day and selected day are highlighted visually.
 
@@ -84,9 +83,7 @@ Follow these steps to run the app on your local machine:
 You can view the live version of the app at the following URL:
 - [Deployed App Link](https://dacoidcalenderassignment-git-master-samiths-projects-7af474ec.vercel.app)
 
-## **Contributing**
 
-If you'd like to contribute to this project, feel free to open a pull request or submit an issue.
 
 ## **License**
 
