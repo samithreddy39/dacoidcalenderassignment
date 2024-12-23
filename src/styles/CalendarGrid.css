@@ -1,0 +1,89 @@
+.calendar-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nav-btn {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.calendar-day-name {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.calendar-day {
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.calendar-day.weekend {
+  background-color: #945c93;
+}
+
+.calendar-day.weekday {
+  background-color: #ffffff;
+
+}
+
+.calendar-day.today {
+  background-color: #ffeb3b;
+  font-weight: bold;
+}
+
+
+.calendar-day.out-of-month {
+  background-color: #897b7b;
+}
+
+.events-indicator {
+  margin-top: 5px;
+}
+
+.events-indicator .text-xs {
+  color: red;
+}
+
+.calendar-day:hover {
+  background-color: #37891c;
+}
+.calendar-day.selected {
+  background-color: #8bc34a;
+  color: rgb(58, 165, 76);
+}
+
+.calendar-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.highlighted {
+  background-color: #d8ba0f; /* Gold highlight */
+  border: 2px solid #ff8c00; /* Orange border for emphasis */
+  border-radius: 50%; /* Circle effect */
+  color: #000; /* Black text for contrast */
+  z-index: 1; /* Ensure it layers on top */}
+
+.calendar-day {
+  transition: all 0.3s ease; /* Smooth transition */
+}
